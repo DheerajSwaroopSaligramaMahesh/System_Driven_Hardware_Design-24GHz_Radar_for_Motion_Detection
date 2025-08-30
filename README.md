@@ -94,4 +94,4 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 
 ---
 
-For more details, refer to the **presentation, report, and MATLAB/C code** in this repository.
+For more details, refer to the **presentation, and MATLAB/C code** in this repository.
