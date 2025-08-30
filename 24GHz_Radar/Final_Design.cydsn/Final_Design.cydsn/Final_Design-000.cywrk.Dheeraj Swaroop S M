@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Final_Design-000\Final_Design\Header Files\fft_application.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Final_Design-000\Final_Design\Source Files\main.c">
 <ExpandedNodeIds>
 <v>Final_Design-000</v>
 <v>Final_Design-000\Final_Design</v>
@@ -155,39 +155,6 @@
 <VisibleNodeIds>
 <v>Final_Design-000</v>
 <v>Final_Design-000\Final_Design</v>
-<v>Final_Design-000\Final_Design\CortexM3</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_AMux.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_In.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_theACLK.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\Button.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\cfar.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\DACout.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\fft_application.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\functions.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\INT_ADC.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_Button.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_UART.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\led_green.lst</v>
-<v>Final_Design-000\Final_Design\CortexM3\ARM_GCC_541\Debug\Listing Files\led_orange.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -254,14 +221,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\TopDesign\TopDesign.cysch" />
-<name v=".\main.c" />
-<name v=".\functions.h" />
-<name v=".\functions.c" />
-<name v=".\fft_application\fft_application.h" />
-<name v=".\fft_application.c" />
-<name v=".\cfar.h" />
 <name v=".\cfar.c" />
+<name v=".\functions.c" />
+<name v=".\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -269,7 +231,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="946, 551" SelectedTabbedMdiWindow="62ea13fd-d469-423d-907a-46f5f18a8d2f"><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\TopDesign\TopDesign.cysch" Guid="ce2c7b7e-e122-44c9-9582-bf15e95137f0" /><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\main.c" Guid="62ea13fd-d469-423d-907a-46f5f18a8d2f" /><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\functions.h" Guid="68f6bb07-a805-4c7e-b51f-911911b8f63d" /><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\functions.c" Guid="caace264-d64d-4d29-892b-562625c588b2" /><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\fft_application\fft_application.h" Guid="9d8e5c94-a8f2-4bfd-a606-51a787b3d22f" /><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\fft_application.c" Guid="bd8851a7-0084-4225-a21d-81adc3827326" /><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\cfar.h" Guid="56ad09bb-845a-408d-a374-ee75583bd6d7" /><DocumentWindow Key="D:\MS\HDA\Embedded\Second_sem\System_Driven_Hardware_Design\Lab5\v7\Final_Design.cydsn\Final_Design.cydsn\cfar.c" Guid="62c94c55-9ed9-4124-b83c-b173961cd74b" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="43c06311-df4e-420a-a218-c559cb3ca910" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1165, 531" SelectedTabbedMdiWindow="43c06311-df4e-420a-a218-c559cb3ca910"><DocumentWindow Key="D:\MS\HDA\Embedded\Github_upload\24GHz_Radar\24GHz_Radar\Final_Design.cydsn\Final_Design.cydsn\cfar.c" Guid="b82dfbe8-0b44-4417-9630-716718152153" /><DocumentWindow Key="D:\MS\HDA\Embedded\Github_upload\24GHz_Radar\24GHz_Radar\Final_Design.cydsn\Final_Design.cydsn\functions.c" Guid="8967c19d-c3d2-4dbf-9e04-596aac92a8aa" /><DocumentWindow Key="D:\MS\HDA\Embedded\Github_upload\24GHz_Radar\24GHz_Radar\Final_Design.cydsn\Final_Design.cydsn\main.c" Guid="2f189e0b-b998-4865-8f74-6b62f996a4a4" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="43c06311-df4e-420a-a218-c559cb3ca910" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
