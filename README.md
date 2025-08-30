@@ -18,9 +18,13 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 ---
 
 ## Project Structure
-- **C Code** → Firmware for FreeSoC2 (sampling, FFT, CFAR, UART, LEDs).
+- **C Code** → Firmware for FreeSoC2 (sampling, FFT, CFAR, UART, LEDs). [Fressoc C Code](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/tree/main/24GHz_Radar/Final_Design.cydsn/Final_Design.cydsn)
 - **MATLAB Scripts** → Data acquisition & visualization of FFT + CFAR.
-- **PCB Design (KiCad)** → 4-layer PCB (THT) with isolated analog/digital grounds.
+
+  [MATLAB Test Scripts](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/tree/main/24GHz_Radar/MATLAB_test_input)
+
+  [MATLAB CFAR Script](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/blob/main/24GHz_Radar/MatlabPlots.mlx)
+- **PCB Design (KiCad)** → 4-layer PCB (THT) with isolated analog/digital grounds. [KiCad PCB Design Project](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/tree/main/24GHz_Radar/PCB_Design_KiCad/Bandpass_Filter)
 - **Presentation** → System explanation, testing, and results.
 
 ---
