@@ -25,7 +25,7 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 
   [MATLAB CFAR Script](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/blob/main/24GHz_Radar/MatlabPlots.mlx)
 - **PCB Design (KiCad)** → 4-layer PCB (THT) with isolated analog/digital grounds. [KiCad PCB Design Project](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/tree/main/24GHz_Radar/PCB_Design_KiCad/Bandpass_Filter)
-- **Presentation** → System explanation, testing, and results.
+- **Presentation** → System explanation, testing, and results. [Presentation](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/blob/main/Final_Presentation.pdf)
 
 ---
 
