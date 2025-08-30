@@ -75,7 +75,7 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 ---
 
 ## References
-- Project Presentation: [Final_Presentation.pptx](./Final_Presentation.pptx)  
+- Project Presentation: [Final_Presentation.pptx](https://github.com/DheerajSwaroopSaligramaMahesh/System_Driven_Hardware_Design-24GHz_Radar_for_Motion_Detection/blob/main/Final_Presentation.pdf)  
 
 ---
 
