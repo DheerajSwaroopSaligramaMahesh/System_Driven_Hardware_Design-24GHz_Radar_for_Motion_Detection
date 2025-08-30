@@ -1,0 +1,88 @@
+# 24GHz Motion Detection Radar
+
+This project implements a **24 GHz radar sensor for movement detection** using **FreeSoC2 (Cypress PSoC)**, with signal processing performed through **FFT** and **CA-CFAR algorithms**.  
+It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scripts** for real-time analysis and visualization.
+
+---
+
+## Features
+- **24 GHz Radar Frontend** – Captures reflected RF signals.
+- **Analog Signal Conditioning** – Amplification + Bandpass filtering.
+- **ADC Sampling** – FreeSoC2 samples the baseband signal.
+- **FFT Processing** – Frequency-domain analysis on embedded side.
+- **CA-CFAR Detection** – Adaptive thresholding for reliable movement detection.
+- **UART Communication** – Transfers ADC/FFT/CFAR data to PC.
+- **MATLAB Visualization** – Plots time-domain, FFT spectrum, and CFAR detections.
+- **LED Indicators** – Show system states and detection results.
+
+---
+
+## Project Structure
+- **C Code** → Firmware for FreeSoC2 (sampling, FFT, CFAR, UART, LEDs).
+- **MATLAB Scripts** → Data acquisition & visualization of FFT + CFAR.
+- **PCB Design (KiCad)** → 4-layer PCB (THT) with isolated analog/digital grounds.
+- **Presentation & Report** → System explanation, testing, and results.
+
+---
+
+## Workflow
+1. **Signal Acquisition**  
+   Radar captures reflected RF → Amplified & filtered → Converted to digital by ADC.  
+
+2. **Embedded Processing**  
+   FreeSoC2 performs FFT + CA-CFAR → Detects moving objects → LED indication.  
+
+3. **Data Transfer & Visualization**  
+   Processed data sent over UART → MATLAB plots spectrum, thresholds, and detections.  
+
+---
+
+## Outputs
+- Hardware testing results of voltage divider, amplifiers, and ADC.  
+- MATLAB plots for **sine + noise inputs, FFT magnitude, CFAR thresholds, and detected targets**.  
+- Real radar detection experiments using 24 GHz module.  
+
+---
+
+## Files in Repo
+- `C_Code/` → Embedded firmware (sampling, FFT, CFAR, UART).  
+- `MATLAB/` → Scripts for simulation & visualization.  
+- `Final_Presentation.pptx` → Slides showing design & testing.  
+- `SDHD_CFAR_Lab_Excersize.pdf` → Reference lab material for CFAR.  
+
+---
+
+## Requirements
+- **Hardware**: FreeSoC2 board, 24 GHz radar module, custom PCB.  
+- **Software**:  
+  - PSoC Creator 4.4  
+  - MATLAB R2022b (or later)  
+
+---
+
+## How to Run
+### On FreeSoC2
+1. Open project in **PSoC Creator**.  
+2. Build & program FreeSoC2.  
+3. Press the **button** to start data acquisition.  
+4. LEDs indicate **system state** (IDLE, SAMPLING, UART transfer, detection).  
+
+### On PC (MATLAB)
+1. Connect to FreeSoC2 via **UART (COM port)**.  
+2. Run `radar_visualization.m` in MATLAB.  
+3. View **time signals, FFT spectrum, CFAR thresholds, and detections** in real-time.  
+
+---
+
+## References
+- Project Presentation: [Final_Presentation.pptx](./Final_Presentation.pptx)  
+
+---
+
+## Contributors
+- Dheeraj Swaroop Saligrama Mahesh  
+- Prajwal Mangaluru  
+
+---
+
+For more details, refer to the **presentation, report, and MATLAB/C code** in this repository.
