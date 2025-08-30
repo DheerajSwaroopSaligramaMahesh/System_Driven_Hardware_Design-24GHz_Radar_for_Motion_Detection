@@ -72,7 +72,7 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 
 ### On PC (MATLAB)
 1. Connect to FreeSoC2 via **UART (COM port)**.  
-2. Run `radar_visualization.m` in MATLAB.  
+2. Run `MatlabPlots.mlx` in MATLAB.  
 3. View **time signals, FFT spectrum, CFAR thresholds, and detections** in real-time.  
 
 ---
