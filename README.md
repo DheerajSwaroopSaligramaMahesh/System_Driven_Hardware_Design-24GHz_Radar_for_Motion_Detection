@@ -21,7 +21,7 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 - **C Code** → Firmware for FreeSoC2 (sampling, FFT, CFAR, UART, LEDs).
 - **MATLAB Scripts** → Data acquisition & visualization of FFT + CFAR.
 - **PCB Design (KiCad)** → 4-layer PCB (THT) with isolated analog/digital grounds.
-- **Presentation & Report** → System explanation, testing, and results.
+- **Presentation** → System explanation, testing, and results.
 
 ---
 
@@ -47,8 +47,7 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 ## Files in Repo
 - `C_Code/` → Embedded firmware (sampling, FFT, CFAR, UART).  
 - `MATLAB/` → Scripts for simulation & visualization.  
-- `Final_Presentation.pptx` → Slides showing design & testing.  
-- `SDHD_CFAR_Lab_Excersize.pdf` → Reference lab material for CFAR.  
+- `Final_Presentation.pdf` → Slides showing design & testing.  
 
 ---
 
