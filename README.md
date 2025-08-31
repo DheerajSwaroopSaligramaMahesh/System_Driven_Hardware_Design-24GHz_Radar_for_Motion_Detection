@@ -88,10 +88,4 @@ It integrates **hardware PCB design**, **embedded C firmware**, and **MATLAB scr
 
 ---
 
-## Contributors
-- Dheeraj Swaroop Saligrama Mahesh  
-- Prajwal Mangaluru  
-
----
-
 For more details, refer to the **presentation, and MATLAB/C code** in this repository.
